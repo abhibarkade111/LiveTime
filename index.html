@@ -18,11 +18,30 @@
         let time;
         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
-        setInterval(()=>{
+       setInterval(()=>{
             a=new Date() ;
             date =a.toLocaleDateString(undefined,options);
-            time =a.getHours()+ ':'+ a.getMinutes()+':'+a.getSeconds();
-            document.getElementById('time').innerHTML=time+ "<br>on " + date;
+           
+            if(a.getHours()<10)
+            {
+                time ='0'+a.getHours()+ ':'+ a.getMinutes()+':'+a.getSeconds();
+                document.getElementById('time').innerHTML=time+ "<br>on " + date;
+            }
+            else if(a.getMinutes()<10)
+            {
+                time =a.getHours()+ ':'+ '0'+a.getMinutes()+':'+a.getSeconds();
+                document.getElementById('time').innerHTML=time+ "<br>on " + date;
+            }
+           else if(a.getSeconds()<10)
+            {
+                time =a.getHours()+ ':'+ a.getMinutes()+':'+'0'+a.getSeconds();
+                document.getElementById('time').innerHTML=time+ "<br>on " + date;
+            }
+            else{
+                time =a.getHours()+ ':'+ a.getMinutes()+':'+a.getSeconds();
+                document.getElementById('time').innerHTML=time+ "<br>on " + date;
+            }
+            
         },1000);
     </script>
 </head>
