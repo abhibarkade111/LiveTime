@@ -1,4 +1,4 @@
-# LiveTime
+# Project LiveTime
 
 # Hacktoberfest 2022
 <div align="center">
