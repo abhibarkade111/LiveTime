@@ -1,20 +1,27 @@
 # Project LiveTime
 
-# Hacktoberfest 2022
+## Hacktoberfest 2022
+
+---
+
 <div align="center">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" />
-  </div>
+  <img src="hacktoberfest_22_logo.png" />  
+</div>
 Follow the README below to get started!
 
+## TODOs List ✅
 
-# TODOs List  ✅ 
-This is the Live Time Website 🔥   
-Happy Hacking!  😊
+---
 
-🔗   **Link** :- https://abhibarkade111.github.io/LiveTime/
+This is the Live Time Website 🔥  
+Happy Hacking! 😊
 
+🔗 **Link** : https://abhibarkade111.github.io/LiveTime/
 
-## The Process
+## Contributing Guidelines
+
+---
+
 1. Fork this repository
 2. Run `git clone [your repo url goes here]`
 3. CD into your cloned repo
