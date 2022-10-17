@@ -21,7 +21,7 @@ Happy Hacking! 😊
 ## Contributing Guidelines
 
 ---
-
+Steps To Contribute:
 1. Fork this repository
 2. Run `git clone [your repo url goes here]`
 3. CD into your cloned repo
